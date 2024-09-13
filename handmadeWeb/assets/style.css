@@ -1,9 +1,12 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-align: center;
+    color:dodgerblue;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -12,10 +15,23 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-a:link{
-    color: coral;
+a{
+    color: rgb(83, 80, 255);
+    text-decoration: none;
 }
 a:hover{
     color:deeppink;
-    text-decoration: underline;
+    text-decoration: brown dotted underline;
 }
+body{
+    background-color:ghostwhite;
+    margin: 20px;
+    padding: 10px;
+}
+.alignLeft{
+    float: left;
+}
+.alignRight{
+    float: right;
+}
+
