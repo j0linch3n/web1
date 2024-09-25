@@ -1,34 +1,82 @@
 
 body{
-    background-color: rgb(254, 255, 202);
-    margin: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color: #FDECEE;
     padding: 10px;
-    border: 15px solid, dodgerblue;
-    padding: 3rem;
-    border-radius: 3.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-#j1 {
-    border: solid 3px green;
-}
-#j1 div{
+.container{
+    display: flex;
+    justify-content: center;
     background-color: pink;
-    width: 1000px;
-    height:500px;
+    flex-wrap: wrap;
 }
-.vrec{
+[class^="box-"]{
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+[class^="rec"]{
+    background-color: red;
     width: 50px;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+}
+.rec-1{
+    height: 70px;
+    border-radius: 5px 5px 5px 50px;
+    display: inline-flex;
+    margin-left: 28%;
+}
+.rec-2{
     height: 200px;
-    background-color: aquamarine;
-
-}
-.hrec{
-    width: 200px;
-    height: 50px;
     background-color: blue;
+    border-radius: 5px 5px 50px 5px;
+    display: inline-flex;
+    margin-top: 18%;
+}
+.rec-3{
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    margin-top:10%;
+    margin-bottom: 5px;
+}
+.rec-4{
+    height: 200px;
+    background-color: blue;
+    border-radius: 0px 0px 100px 0px;
+}
+.rec-5{
+    height: 50px;
+    border-radius: 100px 100px 100px 100px;
+    display: inline-flex;
+    margin-left: 28%;
+}
+.rec-6{
+    height: 200px;
+    background-color: blue;
+    border-radius: 5px 5px 50px 5px;
+    display: inline-flex;
+    margin-top: 18%;
+}
+.rec-7{
+    height: 50px;
+    border-radius: 0px 0px 0px 100px;
+    display: inline-flex;
+    margin-left: 30%;
+    margin-bottom: -17%;
 
 }
-half{
-    
+.rec-8{
+    height: 150px;
+    background-color: blue;
+    border-radius: 0px 0px 100px 0px;
+    display: inline-flex;
+    margin-top: 20%;
+    margin-left: -4px;
+  
 }
