@@ -69,7 +69,6 @@ body{
     display: inline-flex;
     margin-left: 30%;
     margin-bottom: -17%;
-
 }
 .rec-8{
     height: 150px;
@@ -78,5 +77,129 @@ body{
     display: inline-flex;
     margin-top: 20%;
     margin-left: -4px;
-  
 }
+.rec-9{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 18%;
+    transform: skewX(-20deg);
+    margin-right: 31%;
+
+}
+.rec-10{
+    height: 150px;
+    background-color: blue;
+    border-radius: 0px 0px 100px 0px;
+    transform: skewX(-20deg);
+}
+.rec-11{
+    height: 50px;
+    border-radius: 5px 0px 5px 100px;
+    margin-left: 13%;
+    transform: skewX(-20deg);
+}
+.rec-12{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    display: inline-flex;
+    margin-bottom: -8px;    
+}
+.rec-12:before{
+    top: 0;
+    right: 0;
+    box-shadow: 50px -50px 0 0 red;
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+}
+.rec-13{
+    width: 95px;
+    height: 95px;
+    display: inline-flex;
+    margin-right: -4px;
+    margin-left: -4px;
+    margin-bottom: -8px;
+}
+.rec-14{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    display: inline-flex;
+    margin-bottom: -8px;
+}
+.rec-14::before{
+    top: 0;
+    left: 0;
+    box-shadow: -50px -50px 0 0 red;
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+}
+.rec-15{
+    width: 95px;
+    height: 95px;
+    display: inline-flex;
+    margin-left: 95px;
+    margin-bottom: -4px;
+
+}
+.rec-16{
+    width: 95px;
+    height: 95px;
+    display: inline-flex;
+    background-color: white;
+}
+.rec-17{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    display: inline-flex;
+}
+.rec-17::before{
+    bottom: 0;
+    left: 0;
+    box-shadow: -50px 50px 0 0 red;
+    content: "";
+    display: block;
+    width: 250%;
+    height: 250%;
+    position: absolute;
+    border-radius: 50%;
+}
+.rec-18{
+    width: 95px;
+    height: 95px;
+    overflow: hidden;
+    position: relative;
+    background-color: red;
+    display: inline-flex;
+    margin-left: -4px;
+}
+.rec-18::before{
+    bottom: 0;
+    right: 0;
+    box-shadow: 50px 50px 0 0 white;
+    content: "";
+    display: block;
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+
