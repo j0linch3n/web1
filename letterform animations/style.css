@@ -1,0 +1,179 @@
+body{
+    background: radial-gradient(ellipse at top, #FF33B1, #FFF4F9);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+[class^="circle-"]{
+    background: radial-gradient(ellipse at top, #95ff00, #FFF4F9);
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    border-radius: 30rem;
+    height: 400px;
+    float: left;
+}
+[class^="box-"]{
+    background: linear-gradient( #FF33B1, #FFF4F9,#95ff00);
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    float: right;
+}
+[class^="form"]{
+    background-color: #FF33B1;
+    width: 70px;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+}
+.form-1{
+    height: 70px;
+    border-radius: 0px 0px 0px 100px;
+    display: inline-flex;
+    margin-left: 30%;
+    margin-bottom: -17.5%;
+    animation: rotate 3s infinite;
+    animation-timing-function: ease-in-out;
+    transition-delay: 3s;
+}
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(360deg);}
+    100%{transform: rotate(0deg);}
+}
+.form-2{
+    height: 200px;
+    background-color: #F8F8F8;
+    border-radius: 0px 0px 100px 0px;
+    display: inline-flex;
+    margin-top: 20%;
+    margin-left: -4px;
+    animation: stretch 3s infinite;
+    animation-timing-function: ease-in-out;
+    transition-delay: 3s;
+}
+@keyframes stretch {
+    0%{transform: scaleY(1);}
+    50%{transform: scaleY(1.7);}
+    100%{transform: scaleY(1);}
+}
+.circle-1,.circle-2{
+    animation: bounce 4s infinite;
+    animation-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+@keyframes bounce {
+    0%{transform: translateX(0px) rotate(0deg);}
+    50%{transform: translateX(500px) rotate(360deg);}
+    100%{transform: translateX(0px)rotate(0deg);}
+}
+/* .circle-1:hover{
+    transform: scale(110%);
+    background-color: #FF33B1;
+    .form-1{
+        position: relative;
+        margin-bottom: 0px;
+        background-color: #ff2f00;
+        height: 70px;
+    }
+
+    .form-3{
+        position: relative;
+        height: 270.5px;
+        width: 140px;
+        background: #ff2f00;
+        border-radius: 0px 30px 140px 0px;
+        display: inline-flex;
+        margin-top: 20%;
+        margin-left: -18.5%;
+        z-index: 0;
+    }
+    .form-2{
+        position: relative;
+        background-color: #95ff00;
+        margin-bottom: 17.6%;
+        z-index: 1;
+    }
+} */
+.form-4{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 22%;
+    transform: skewX(-20deg);
+    margin-right: 30%;
+    background-color:  #FF33B1;
+    animation: hat 5s infinite;
+}
+.form-5{
+    height: 150px;
+    background-color: #95ff00;
+    border-radius: 0px 0px 100px 0px;
+    transform: skewX(-20deg);
+    animation: transform 5s infinite;
+ }
+@keyframes transform{
+    0%{transform: skew(-20deg);}
+    50%{transform: skew(-50deg);}
+    100%{transform: skew(-20deg);}
+
+}
+.form-6{
+    height: 50px;
+    border-radius: 5px 0px 5px 100px;
+    margin-left: 14.5%;
+    transform: skewX(-20deg);
+    background-color: #FF33B1;
+    animation: tail 5s infinite;
+}
+@keyframes tail{
+    0%{transform: skew(-20deg);}
+    50%{transform: skew(-50deg) translateX(-80px);}
+    100%{transform: skew(-20deg);}
+}
+@keyframes hat{
+    0%{transform: skew(-20deg);}
+    50%{transform: skew(-50deg) translateX(60px);}
+    100%{transform: skew(-20deg);}
+}
+.box-1{
+    animation: jump 3s infinite;
+    animation-timing-function: ease-in-out;
+    transition-delay: 2s;
+}
+@keyframes jump {
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(300px) translateX(-300px);}
+    100%{transform: translateY(0px);}
+}
+.form-7{
+    height: 70px;
+    border-radius: 100px 100px 100px 100px;
+    display: inline-flex;
+    margin-left: 28%;
+    animation: ball 4s infinite;
+    transition-timing-function: ease-in-out;
+ }
+ .form-7:hover{
+    background: radial-gradient(ellipse at top, #FF33B1, #FFF4F9),
+            radial-gradient(ellipse at bottom, #95ff00, #FFF4F9);
+ }
+.form-8{
+    height: 250px;
+    background-color: #F8F8F8;
+    border-radius: 5px 5px 70px 5px;
+    display: inline-flex;
+    margin-top: 18%;
+}
+@keyframes ball{
+    0%{transform: scale(1);}
+    50%{transform: scale(5);}
+    100%{transform: scale(1);}
+}
+
