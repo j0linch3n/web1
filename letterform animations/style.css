@@ -1,6 +1,6 @@
 body{
     background: radial-gradient(ellipse at top, #FF33B1, #FFF4F9);
-    padding: 10px;
+    padding: 30px;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -67,6 +67,9 @@ body{
     animation: bounce 4s infinite;
     animation-timing-function: ease-in-out;
     transition-delay: 1s;
+}
+.circle-2{
+    margin-top: 400px;
 }
 @keyframes bounce {
     0%{transform: translateX(0px) rotate(0deg);}
